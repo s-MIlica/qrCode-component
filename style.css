@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    margin: 5% 20%;
+    padding: 20px;
+}
+
+
+.text {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.attribution {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px gradient hsl(218, 44%, 22%);
+    max-width: 300px;
+    max-height: 300px;
+}
+
+h2, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a:link {
+    text-decoration: none;
+    color: hsl(218, 44%, 22%);
+}
+
+a:hover{
+    background-color: hsl(218, 44%, 22%);
+    color: hsl(220, 15%, 55%);
+}
+
+a:visited{
+    text-decoration: none;
+    color: hsl(220, 15%, 55%);
+}
